@@ -1,0 +1,47 @@
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: var(--light-blue);
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+.cursos .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.cursos .container .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 2rem;
+    padding: 0;
+}
+
+.cursos .container .col{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    justify-content:center;
+}
+.cursos .container .col img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.cursos .box-text{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: #DCEDF1;
+}
+.cursos .box-text p{
+    background-color: #DCEDF1;
+}

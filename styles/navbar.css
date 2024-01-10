@@ -1,0 +1,96 @@
+:root{
+    --blue: #2F4C5B;
+    --light-blue: #3F869B;
+    --skyblue: #DCEDF1;
+    --green:#03F68C;
+}
+
+
+body{
+    box-sizing: border-box;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+    background-color: #fff;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+nav .logo{
+    width: 15rem;
+    height: 5rem;
+    margin: 1rem;
+}
+.navbar {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; 
+    position: fixed;
+    z-index: 1000;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.navbar-collapse {
+    flex-grow: 1; 
+    justify-content: flex-end;
+}
+
+
+.navbar-nav {
+    width: 100%; 
+    justify-content: flex-end; 
+}
+.nav-item .nav-link{
+    font-size: 1.6rem;
+    color: var(--blue);
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    transition: .2s linear;
+} 
+.navbar-nav{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.nav-item{
+    margin: 1rem;
+}
+.nav-item .nav-link .btn{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background-color: #03F68C;
+    border-color: #03F68C;
+    color: #fff;
+    font-size: 1.6rem;
+    transition: .2s linear;
+}
+.nav-item .nav-link .btn:hover{
+    background-color: var(--blue);
+    border-color: var(--blue);
+    color: #fff;
+}
+
+.nav-item .nav-link:hover{
+    color: var(--light-blue);
+    
+}
+

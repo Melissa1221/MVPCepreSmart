@@ -1,0 +1,21 @@
+.banner{
+    height: auto;
+    width: 100%;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.banner{
+    margin-top: 7rem;
+}
+.inicio .imagen{
+    background-image: url(../assets/images/DESKTOP.png);
+    background-size: cover;
+    background-position: center;
+    width: 150vh;
+    height: 150vh;
+}
