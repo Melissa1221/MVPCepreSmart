@@ -5,12 +5,12 @@
 .inicio{
     display: flex;
     align-items: center;
-    min-height: 100vh;
+   
     background-size: cover;
     background-position: center;
 }
 .banner{
-    margin-top: 7rem;
+    margin-top: 8rem;
 }
 .banner-tablet{
     display: none;

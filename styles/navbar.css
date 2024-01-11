@@ -74,7 +74,7 @@ nav .logo{
 .nav-item{
     margin: 1rem;
 }
-.nav-item .nav-link .btn{
+.nav-link .btn{
     padding: 1rem 2rem;
     border-radius: 2rem;
     background-color: #03F68C;
@@ -83,7 +83,7 @@ nav .logo{
     font-size: 1.6rem;
     transition: .2s linear;
 }
-.nav-item .nav-link .btn:hover{
+.nav-link .btn:hover{
     background-color: var(--blue);
     border-color: var(--blue);
     color: #fff;
