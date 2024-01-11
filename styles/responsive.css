@@ -1,0 +1,80 @@
+@media(max-width:450px){
+    .inicio .banner-tablet{
+        display: none;
+    }
+    .inicio .banner{
+        display: none;
+    }
+    .inicio .banner-mobile{
+        display: block;
+        margin-top: 7rem;
+        height: auto;
+        width: 100%;
+    }
+    
+    .box-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tutores .col-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    footer .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer  .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .footer .row .col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+    }
+    .footer .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+   
+
+}
+@media(max-width:768px){
+    .inicio .banner{
+        display: none;
+    }
+    .inicio .banner-tablet{
+        display: block;
+        margin-top: 7rem;
+        height: auto;
+        width: 100%;
+    }
+    .inicio .banner-mobile{
+        display: none;
+    }
+}

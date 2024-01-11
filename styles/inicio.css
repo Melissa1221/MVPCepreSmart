@@ -12,10 +12,9 @@
 .banner{
     margin-top: 7rem;
 }
-.inicio .imagen{
-    background-image: url(../assets/images/DESKTOP.png);
-    background-size: cover;
-    background-position: center;
-    width: 150vh;
-    height: 150vh;
+.banner-tablet{
+    display: none;
+}
+.banner-mobile{
+    display: none;
 }
