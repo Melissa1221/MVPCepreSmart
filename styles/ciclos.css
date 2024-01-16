@@ -47,3 +47,11 @@
     font-size: 1.6rem;
     transition: .2s linear;
 }
+
+.box-text-big{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
