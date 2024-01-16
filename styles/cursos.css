@@ -6,6 +6,7 @@
     margin: 1rem;
     
 }
+
 .cursos .container{
     display: flex;
     flex-wrap: wrap;
@@ -52,4 +53,10 @@
 .container .col img{
     padding: 2rem;
     
+}
+.box-text{
+    border-style: solid;
+    border-color: var(--skyblue);
+    border-width: 1px;
+    border-radius: 3rem;
 }
