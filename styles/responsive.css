@@ -64,6 +64,9 @@
         align-items: center;
         width: 100%;
     }
+    .box-text-big{
+        padding: 2rem;
+    }
 
     footer .row{
         display: flex;
