@@ -18,3 +18,7 @@
 .banner-mobile{
     display: none;
 }
+
+h1{
+    text-transform: uppercase;
+}
