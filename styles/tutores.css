@@ -11,6 +11,9 @@
 .tutores .container {
     margin-top: 2rem;
 }
+.container .col .imgMark{
+    padding: 4rem;
+}
 .tutores .col-4 .box{
     border-style: solid;
     border-color: #555;
