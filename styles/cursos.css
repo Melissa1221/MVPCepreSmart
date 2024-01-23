@@ -35,10 +35,10 @@
 
 
 .cursos .container .col img{
-    width: 100%;
-    height: 400px;
+    width: auto;
+    height: 300px;
     object-fit: cover;
-    padding: 6rem;
+    padding: 5rem;
     margin: 0;
 
 }
