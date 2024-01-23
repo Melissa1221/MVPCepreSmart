@@ -22,3 +22,30 @@
 h1{
     text-transform: uppercase;
 }
+
+.academias .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items:center;
+    text-align: center;
+    
+}
+
+.ciclos .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items:center;
+    text-align: center;
+    
+}
+.cursos .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items:center;
+    text-align: center;
+    
+}
+
