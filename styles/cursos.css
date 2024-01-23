@@ -20,23 +20,27 @@
     width: 100%;
     gap: 2rem;
     padding: 0;
+    
 }
 
 .cursos .container .col{
+    flex: 1;
     padding: 0;
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content:space-around;
-    align-items: center;
-
+    justify-content:start;
+    margin: 0;
 }
+
 
 .cursos .container .col img{
     width: 100%;
-    height: auto;
+    height: 400px;
     object-fit: cover;
-    padding: 2rem;
+    padding: 6rem;
+    margin: 0;
+
 }
 .cursos .box-text{
     text-align: center;
