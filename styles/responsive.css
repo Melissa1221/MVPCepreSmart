@@ -17,6 +17,7 @@
         padding: 0;
 
     }
+
     .inicio a{
         margin: 0;
         padding: 0;
@@ -59,6 +60,13 @@
         padding-bottom: .5rem;
         padding-top: .5rem;
         
+    }
+    .cursos .container .col img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        padding: 5rem;
+    
     }
 
     .tutores .col-4{
